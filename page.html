@@ -4,8 +4,9 @@
 <title>my first project</title>
 <style>
 body{
+	position: justify;
   text-align: center;
-  background: url("try.jpg");
+  background: url("try.jpg")
   no-repeat center center fixed;
   height: 100%;
   width: 100%;
@@ -15,7 +16,14 @@ body{
   font-family: helvetica;
 }
 img{
-	border-radius: 50%;
+	border-radius: 30px;
+	margin: 10px;
+}
+h1{
+	font-size: 50px;
+}
+h2{
+	font-size: 32px;
 }
 p{
 	font-size: 20px;
@@ -27,19 +35,54 @@ input{
 	margin: 5px;
 	font-size: 18px;
 }
-input[type="submit"]{
+input[type="Submit"]{
 	background: red;
 	color:white;
 }
+footer{
+	text-align: left;
+	color: white;
+	display: block;
+	margin:0;
+	bottom: 0;
+	padding: 10px;
+}
+ ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+      text-align: center;
+      margin: 10 0;
+      margin-bottom: 0;
+    }
+    button{
+    	text-align: left;
+    	background: black;
+    	color: white;
+    	padding: 10px 20px;
+    }
+li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
 </style>
 </head>
 <body>
-	<img src="image.jpg" width="300" height="300">
-	
-<h1>SIMRAN</h1>
-<p>hi! I'm Simran,a computer science engineering student.notes available here for all subjects of Computer Science Engineering Students pursuing Btech.login your email to get access</p>
-<h3>PERSONAL INFORMATION</h3>
-<input type="email" placeholder="enter your email">
-<a href="contact.html"><input type="Submit"></a>
+	<img src="logo.jpg" width="200" height="200">
+<h2>NotesHub</h2>	
+<h1>SEARCH</h1>
+<p>hi! Find anything you need to study.<br>Designed specially for Btech students</p>
+
+<input type="name" placeholder="Enter Subject or Topic ">
+<a href="search.html"><input type="Submit"></a><br>
+<a href="contact.html"><button>CONTACT US</button></a>
+<footer>  
+  
+    <ul>
+      <li><a href="blog.html">About Me</a></li>
+      <li><a href="#">Query</a></li>
+      <li><a href="#">Request</a></li>
+    </ul>
+  </footer>
+
 </body>
 </html>
